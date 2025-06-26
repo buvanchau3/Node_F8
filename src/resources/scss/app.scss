@@ -1,0 +1,25 @@
+@use 'variables';
+
+h1 {
+    color: variables.$color-red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text {
+    color: variables.$color-red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

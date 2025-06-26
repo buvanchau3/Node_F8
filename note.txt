@@ -1,0 +1,24 @@
+để tạo package.json nhập npm init 
+
+
+Bài 1 SSR & CSR
+    1 server side Rendering
+    2 client side Rendering
+bài 2 cài đặt 
+    Cài đặt node.js , search nodejs cài đặt như thường
+    - là 1 nền tảng được xây dựng trên V8 javascrip engine  
+    Cài đặt Express & start wed server  search npm express cài npm install express 
+    Tạo package.json 
+    Tạo package-lock.json 
+    node mon khởi động lại ứng dụng node khi phát hiện ra các thay đổi tệp trong thư mục.
+    npm install nodemon
+    install Morgan cài npm i morgan --save-dev
+
+
+  template engine (handlebars) Handlebars Template Engine là gì? 
+  Handlebars là một template engine – công cụ giúp bạn tách riêng phần giao diện (HTML) 
+  khỏi phần xử lý logic (JavaScript/Node.js). Nó giúp tạo ra các trang HTML động một cách dễ dàng và rõ ràng hơn.
+
+
+  1 static file tĩnh
+  2 thêm sass npm install node-sass 
