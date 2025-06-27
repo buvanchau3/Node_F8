@@ -1,18 +1,8 @@
 const newRoute = require('./news');
+const siteRoute = require('./site');
 function route(app) {
     app.use('/new', newRoute);
-
-    app.get('/', (req, res) => {
-        res.render('home'); // Không cần layout
-    });
-
-    app.get('/search', (req, res) => {
-        res.render('search');
-    });
-    app.post('/search', (req, res) => {
-        console.log(req.body);
-        res.send();
-    });
+    app.use('/', siteRoute);
 }
 
 module.exports = route;
